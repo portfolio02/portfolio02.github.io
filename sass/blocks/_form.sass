@@ -1,0 +1,111 @@
+.form
+    position: relative
+    margin-top: 17px
+    &__submit1
+        width: 180px
+        height: 45px
+        background-color: $main-color
+        border: none
+        border-radius: 20px
+        font-size: 12px
+        color: white
+        text-transform: uppercase
+        cursor: pointer
+    &__submit1_wrapper
+        position: absolute
+        top: 73px
+        left: 50%
+        transform: translateX(-50%)
+        &::before
+            content: ''
+            position: absolute
+            width: 10px
+            height: 10px
+            background-color: #fff
+            left: -10px
+            top: 45%
+        &:after
+            content: ''
+            position: absolute
+            width: 10px
+            height: 10px
+            background-color: #fff
+            right: -10px
+            top: 45%
+    &__name
+        padding-left: 28px
+        width: 268px
+        height: 45px
+        border: 1px solid rgba(0, 0, 0, 0.21)
+        background-color: #ffffff
+        border-radius: 25px
+        font-size: 13px
+        font-weight: 300
+        color: #101010
+    &__phone
+        padding-left: 28px
+        width: 268px
+        height: 45px
+        border: 1px solid rgba(0, 0, 0, 0.21)
+        background-color: #ffffff
+        border-radius: 25px
+        font-size: 13px
+        font-weight: 300
+        color: #101010
+    &__email
+        padding-left: 28px
+        width: 268px
+        height: 45px
+        border: 1px solid rgba(0, 0, 0, 0.21)
+        background-color: #ffffff
+        border-radius: 25px
+        font-size: 13px
+        font-weight: 300
+        color: #101010
+    &__textarea
+        resize: none
+        padding-top: 18px
+        padding-left: 28px
+        margin-top: 28px
+        width: 813px
+        height: 71px
+        border: 1px solid rgba(0, 0, 0, 0.21)
+        background-color: #ffffff
+        border-radius: 25px
+        font-size: 13px
+        font-weight: 300
+        color: #101010
+    &__name_bg
+        background-color: #fff
+    &__phone_bg
+        background-color: #fff
+    &__email_bg
+        background-color: #fff
+    &_width
+        width: 818px
+
+.error
+    border: 1px solid red
+    position: relative
+label.error
+    border: none
+
+#name-error
+    position: absolute
+    top: 50px
+    left: 45px
+    font-size: 14px
+    color: red
+
+#phone-error
+    position: absolute
+    top: 50px
+    left: 300px
+    font-size: 14px
+    color: red
+#email-error
+    position: absolute
+    top: 50px
+    left: 575px
+    font-size: 14px
+    color: red

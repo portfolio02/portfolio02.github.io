@@ -1,0 +1,48 @@
+.map
+    background: url('../img/map.png') center (center/cover) no-repeat
+    padding: 171px 0
+    position: relative
+    &__wrapper
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 406px
+        height: 158px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__address-wrapper
+        position: relative
+        width: 309px
+        background-color: #fff
+        padding: 27px 50px
+        address
+            font-weight: 300
+            font-style: normal
+            margin-top: 14px
+            line-height: 20px
+        &::before
+            content: ''
+            position: absolute
+            border-right: 20px solid white
+            border-bottom: 20px solid transparent
+            border-top: 20px solid transparent
+            left: 0
+            top: 50%
+            transform: translate(-100%, -50%)
+    &__address
+        span
+            color: $main-color
+            font-weight: 700
+            font-size: 16px
+    &__phone
+        color: #3a3a3a
+        text-decoration: none
+    &__phone_wrapper
+        margin-top: 3px
+    &__email
+        color: $main-color
+        font-weight: 300
+    &__email_wrapper
+        margin-top: 3px

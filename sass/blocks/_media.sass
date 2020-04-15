@@ -1,0 +1,356 @@
+@media ( max-width: 1412px )
+    .slick-active
+        transform: scale(1)
+        opacity: 1
+        transition: all linear 0s
+    .slider
+        width: 100%
+    .slider__text
+        width: 600px
+        margin: 17px auto 0
+    .header__contacts
+        margin-right: 15px
+
+@media ( max-width:  1220px )
+    .shipping__wrapper
+        justify-content: center
+    .shipping__item
+        margin: 0 10px 30px
+        &:last-child
+            margin-bottom: 0
+    .prices__wrapper
+        flex-wrap: wrap
+    .prices__item
+        margin-bottom: 30px
+        &:last-child
+            margin-bottom: 0
+
+@media ( max-width: 1110px )
+    .header
+        &__tel
+            font-size: 17px
+        &__link
+            font-size: 13px
+
+    .mainscreen
+        &__wrapper
+            width: 520px
+            margin: 35px auto
+        &__item
+            margin-bottom: 35px
+
+    .button_main
+        margin-top: 120px
+    .prices__wrapper
+        width: 55%
+        margin: 32px auto 0
+
+@media ( max-width: 1040px )
+
+    .workWithUs__wrapper
+        width: 70%
+        margin: 36px auto 0
+    .burger
+        display: block
+        div
+            transition: all 0.5s
+    .header
+        &__nav
+            z-index: 9
+            position: fixed
+            right: 0
+            top: 0
+            height: 100vh
+            background-color: #000000cc
+            width: 35%
+            transform: translateX(100%)
+            transition: all 0.5s ease-in
+        &__nav-active
+            transform: translateX(0%)
+        &__ul
+
+            margin-top: 35%
+            flex-direction: column
+            align-items: center
+            li
+                border-right: none
+                margin: 30px 0
+                a
+                    z-index: 4
+                    font-size: 20px
+                    &:hover
+                        color: white
+                        &::before
+                            content: ""
+                            position: absolute
+                            bottom: -5px
+                            left: 0
+                            width: 0%
+                            height: 1px
+                            background-color: $main-color
+    .toggle
+        .line1
+            transform: rotate(-45deg) translate(-5px, 10px)
+        .line2
+            width: 0
+        .line3
+            transform: rotate(45deg) translate(-5px, -10px)
+    .advantages__item_wrapper
+        flex-direction: column
+        align-items: center
+
+    .agent__subtitle
+        width: 100%
+    .manager__subtitle
+        width: 100%
+
+@media ( max-width: 1000px )
+    .prices__wrapper
+        justify-content: center
+    .questions__wrapper
+        width: 820px
+    .form_width
+        width: 100%
+        padding-left: 3px
+@media ( min-width: 891px )
+    #form1
+        #name-error
+            top: 50px
+        #phone-error
+            top: 50px
+            left: 300px
+        #email-error
+            top: 50px
+            left: 585px
+    #form2
+        #name-error
+            top: 50px
+            left: 50px
+        #phone-error
+            top: 50px
+            left: 305px
+        #email-error
+            top: 50px
+            left: 585px
+    
+@media ( max-width: 890px )
+
+    .questions
+        padding: 30px 0 30px
+
+    .slick-prev
+        left: 35%
+    .slick-next
+        right: 35%
+
+    .mainscreen__title
+        font-size: 55px
+        overflow-x: hidden
+    .mainscreen__subtitle
+        font-size: 32px
+    .header__nav
+        width: 50%
+    .form
+        &__name
+            display: block
+            margin: 15px auto
+        &__phone
+            display: block
+            margin: 15px auto
+        &__email
+            display: block
+            margin: 15px auto
+        &__submit1_wrapper
+            top: 200px
+        &__textarea
+            width: 268px
+            display: block
+            margin: 15px auto
+    .consultation__wrapper
+        height: 266px
+    .questions__wrapper
+        height: 440px
+        width: 320px
+
+    .footer__upper
+        flex-direction: column
+
+#name-error
+    top: 60px
+
+#phone-error
+    top: 120px
+    left: 33px
+
+#email-error
+    top: 180px
+    left: 43px
+
+.form_width 
+    #name-error
+        top: 60px
+        left: 73px
+    #phone-error
+        top: 120px
+        left: 55px
+
+    #email-error
+        top: 180px
+        left: 67px
+
+@media ( max-width: 830px )
+    .mainscreen__divider
+        &:before
+            width: 200px
+            left: -213px
+        &::after
+            width: 200px
+            right: -213px
+
+@media ( max-width: 760px )
+    .mainscreen__divider::after
+        width: 100px
+        right: -113px
+    .mainscreen__divider::before
+        width: 100px
+        left: -113px
+
+    .workWithUs__wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+    .workWithUs__wrapper2
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+    .workWithUs__item-margin
+        margin: 0 0 26px
+
+
+@media ( max-width: 665px )
+    .mainscreen__firstText
+        font-size: 20px
+    .slider__text
+        width: 300px
+        font-size: 14px
+    .titleFull__subtitle
+        font-size: 16px
+
+@media ( max-width: 600px )
+
+    .mainscreen__wrapper
+        width: 320px
+        margin: 35px auto 0
+        display: flex
+        flex-direction: column
+        align-items: center
+    .mainscreen__item_align1
+        position: relative
+    .mainscreen__item_align2
+        position: relative
+    .mainscreen__item_align3
+        position: relative
+    .button_main
+        margin-top: 0
+
+@media ( max-width: 550px )
+    .map__wrapper
+        width: 100%
+    .shipping__item
+        width: 100%
+    .shipping__img
+        width: 100%
+    .footer__left_part
+        width: 100%
+    .footer__title
+        font-size: 14px
+
+    .mainscreen__firstText
+        font-size: 14px
+    .mainscreen__title
+        font-size: 35px
+    .mainscreen__subtitle
+        font-size: 20px
+
+    .advantages__item
+        width: 320px
+    .advantages__text_wrapper
+        width: 240px
+    .header__contacts
+        display: none
+    .header
+        button
+            display: none
+    .mainscreen__title
+        margin-top: 0
+        margin-bottom: 0
+    .mainscreen__firstText
+        margin-top: 20px
+    .slick
+        &-prev
+            left: 32%
+        &-next
+            right: 32%
+
+@media ( max-width: 320px )
+    .footer__bottom
+        display: flex
+        flex-direction: column
+    .footer__politic
+        margin-top: 10px
+        margin-bottom: 10px
+    .footer__right_part
+        flex-direction: column
+    .footer__contacts
+        margin-top: 10px
+        margin-bottom: 10px
+    .footer__left_part
+        flex-direction: column
+    .footer__title
+        text-align: center
+        margin-top: 10px
+    .map__wrapper
+        width: 320px
+    .map__address-wrapper
+        width: 233px
+        padding: 27px 20px
+    .questions__wrapper
+        width: 300px
+    .slick
+        &-prev
+            left: 20%
+        &-next
+            right: 20%
+    .shipping__img
+        width: 100%
+    .advantages__item
+        width: 300px
+    .mainscreen__divider::after
+        width: 100px
+        right: -113px
+    .mainscreen__divider::before
+        width: 100px
+        left: -113px
+    .mainscreen__title
+        line-height: 30px
+        font-size: 23px
+    .mainscreen__wrapper
+        width: 300px
+    .title
+        font-size: 23px
+
+    .footer__questions
+        text-align: center
+    .footer__right_part
+        width: 300px
+    .workWithUs__item
+        width: 175px
+
+
+    .header__ul
+        margin-top: 60%
+        li
+            a
+                font-size: 18px
